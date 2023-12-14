@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "project-with-poetry"
+version = "1.0"
+description = "18 homework with poetry"
+authors = ["Kirill <ryabtsev231297@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "2.0.0rc4"
+pytest = "7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
